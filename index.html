@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">
+                <strong>GifTastic PUPPIES</strong>
+            </h1>
+        </div>
+
+        <!-- Inital Buttons -->
+        <div class="row" id="buttons"></div>
+
+        <!-- Row containing the Gifs and the user form -->
+        <div class="row" id="images">
+
+            <!-- Left panel containing the Gifs -->
+            <div class="col-lg-12" id="gifs">
+            </div>
+            <!-- End left panel containing the Gifs  -->
+
+            <!-- Right panel containing the user form -->
+            <div class="col-lg-2 submitPanel">
+                <form id="submitForm">
+                    <label for="breed-input" class="inputBreed">Add a Breed</label>
+                    <input type="text" id="breed-input">
+                    <br>
+
+                    <!-- Button triggers a new animal to be added -->
+                    <input id="add-breed" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</body>
+</html>

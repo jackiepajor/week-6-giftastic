@@ -1,0 +1,50 @@
+body {
+	background: url(../images/pawprints.jpg);
+	background-repeat: repeat;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: white;
+  margin: 10px;
+  color: black;
+}
+
+
+.puppyButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px black;
+  display: inline;
+  margin: 5px 5px;
+}
+
+.puppyButton:hover {
+  background-color: white;
+}
+
+.inputBreed {
+  font-size: 15px;
+  color: black;
+  margin: 15px 0px;
+  margin-left: 32px;
+}
+
+#breed-input {
+  width: 200px;
+  margin-left: 15px;
+}
+
+
+#add-breed {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 45px;
+}
