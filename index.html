@@ -23,29 +23,18 @@
                 <strong>GifTastic PUPPIES</strong>
             </h1>
         </div>
-
-        <!-- Inital Buttons -->
+        <!-- Add a breed:, text box, submit button -->
+        <div class="col-lg-12 submitPanel">
+            <form id="submitForm">
+                <label for="breed-input" class="inputBreed">ADD A BREED:</label>
+                <input type="text" id="breed-input">
+                <input id="add-breed" type="submit" value="SUBMIT">
+            </form>
+        </div>
+        <!-- Breed buttons -->
         <div class="row" id="buttons"></div>
-
-        <!-- Row containing the Gifs and the user form -->
         <div class="row" id="images">
-
-            <!-- Left panel containing the Gifs -->
-            <div class="col-lg-12" id="gifs">
-            </div>
-            <!-- End left panel containing the Gifs  -->
-
-            <!-- Right panel containing the user form -->
-            <div class="col-lg-2 submitPanel">
-                <form id="submitForm">
-                    <label for="breed-input" class="inputBreed">Add a Breed</label>
-                    <input type="text" id="breed-input">
-                    <br>
-
-                    <!-- Button triggers a new animal to be added -->
-                    <input id="add-breed" type="submit" value="Submit">
-                </form>
-            </div>
+            <div class="col-lg-12" id="gifs"></div>
         </div>
     </div>
     </div>
